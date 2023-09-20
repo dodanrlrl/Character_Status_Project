@@ -8,50 +8,55 @@
     "AttackPower": 12.0,
     "Defense": 15.0,
     "healthPoint": 100.0,
-    "fatalHitProbability": 10.0
+    "Critical": 10.0,
+    "spritePath": "SoldierSprite/Zeus"
   },
   {
     "level": 1,
     "exp": 0.0,
     "code": 1,
-    "type": 0,
+    "type": 1,
     "name": "Oner",
     "AttackPower": 10.0,
     "Defense": 13.0,
     "healthPoint": 100.0,
-    "fatalHitProbability": 10.0
+    "Critical": 10.0,
+    "spritePath": "SoldierSprite/Oner"
   },
   {
     "level": 1,
     "exp": 0.0,
     "code": 2,
-    "type": 0,
+    "type": 2,
     "name": "Faker",
     "AttackPower": 13.0,
     "Defense": 11.0,
     "healthPoint": 100.0,
-    "fatalHitProbability": 10.0
+    "Critical": 10.0,
+    "spritePath": "SoldierSprite/Faker"
   },
   {
     "level": 1,
     "exp": 0.0,
     "code": 3,
-    "type": 0,
+    "type": 3,
     "name": "Gumayusi",
     "AttackPower": 15.0,
     "Defense": 9.0,
     "healthPoint": 100.0,
-    "fatalHitProbability": 20.0
+    "Critical": 20.0,
+    "spritePath": "SoldierSprite/Gumayusi"
   },
   {
     "level": 1,
     "exp": 0.0,
     "code": 4,
-    "type": 0,
+    "type": 4,
     "name": "Keria",
     "AttackPower": 7.0,
     "Defense": 14.0,
     "healthPoint": 100.0,
-    "fatalHitProbability": 10.0
+    "Critical": 10.0,
+    "spritePath": "SoldierSprite/Keria"
   }
 ]

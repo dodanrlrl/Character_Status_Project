@@ -12,10 +12,11 @@ public enum SoldierCode
 }
 public enum SoldierType
 {
-    Warrior,
-    Archor,
-    Mage,
-    Thif
+    Top,
+    Jungle,
+    Mid,
+    Ad,
+    Support
 }
 
 [System.Serializable]
@@ -30,7 +31,9 @@ public struct SoldierAbility
     public float AttackPower;
     public float Defense;
     public float healthPoint;
-    public float fatalHitProbability;
+    public float Critical;
+
+    public string spritePath;
 }
 public class SoldierManager : MonoBehaviour
 {
@@ -75,6 +78,12 @@ public class SoldierManager : MonoBehaviour
         {
             m_soldierAbility.Add(ability.code, ability);
         }
+
+    }
+
+    public Dictionary<SoldierCode, SoldierAbility> GetSoldierInfo()
+    {
+        return m_soldierAbility;
 
     }
 
