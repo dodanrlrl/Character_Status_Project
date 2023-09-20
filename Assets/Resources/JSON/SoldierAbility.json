@@ -1,0 +1,57 @@
+[
+  {
+    "level": 1,
+    "exp": 0.0,
+    "code": 0,
+    "type": 0,
+    "name": "Zeus",
+    "AttackPower": 12.0,
+    "Defense": 15.0,
+    "healthPoint": 100.0,
+    "fatalHitProbability": 10.0
+  },
+  {
+    "level": 1,
+    "exp": 0.0,
+    "code": 1,
+    "type": 0,
+    "name": "Oner",
+    "AttackPower": 10.0,
+    "Defense": 13.0,
+    "healthPoint": 100.0,
+    "fatalHitProbability": 10.0
+  },
+  {
+    "level": 1,
+    "exp": 0.0,
+    "code": 2,
+    "type": 0,
+    "name": "Faker",
+    "AttackPower": 13.0,
+    "Defense": 11.0,
+    "healthPoint": 100.0,
+    "fatalHitProbability": 10.0
+  },
+  {
+    "level": 1,
+    "exp": 0.0,
+    "code": 3,
+    "type": 0,
+    "name": "Gumayusi",
+    "AttackPower": 15.0,
+    "Defense": 9.0,
+    "healthPoint": 100.0,
+    "fatalHitProbability": 20.0
+  },
+  {
+    "level": 1,
+    "exp": 0.0,
+    "code": 4,
+    "type": 0,
+    "name": "Keria",
+    "AttackPower": 7.0,
+    "Defense": 14.0,
+    "healthPoint": 100.0,
+    "fatalHitProbability": 10.0
+  }
+]
