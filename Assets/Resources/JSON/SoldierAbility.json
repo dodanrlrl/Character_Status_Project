@@ -1,7 +1,7 @@
 [
   {
-    "level": 1,
-    "exp": 0.0,
+    "level": 10,
+    "exp": 350.0,
     "code": 0,
     "type": 0,
     "name": "Zeus",
@@ -12,8 +12,8 @@
     "spritePath": "SoldierSprite/Zeus"
   },
   {
-    "level": 1,
-    "exp": 0.0,
+    "level": 9,
+    "exp": 370.0,
     "code": 1,
     "type": 1,
     "name": "Oner",
@@ -24,8 +24,8 @@
     "spritePath": "SoldierSprite/Oner"
   },
   {
-    "level": 1,
-    "exp": 0.0,
+    "level": 10,
+    "exp": 108.1,
     "code": 2,
     "type": 2,
     "name": "Faker",
@@ -36,8 +36,8 @@
     "spritePath": "SoldierSprite/Faker"
   },
   {
-    "level": 1,
-    "exp": 0.0,
+    "level": 8,
+    "exp": 300.9,
     "code": 3,
     "type": 3,
     "name": "Gumayusi",
@@ -48,8 +48,8 @@
     "spritePath": "SoldierSprite/Gumayusi"
   },
   {
-    "level": 1,
-    "exp": 0.0,
+    "level": 8,
+    "exp": 300.4,
     "code": 4,
     "type": 4,
     "name": "Keria",

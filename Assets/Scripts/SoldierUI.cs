@@ -24,9 +24,9 @@ public class SoldierUI : MonoBehaviour
     [SerializeField]
     private TMP_Text SoldierCritical;
 
-    public void ChangeSoldier()
+    public void InitializeSoldierStatus()
     {
-        SoldierAbility soldierAbility = SoldierManager.Instance.GetSoldierInfo()[0];
+        SoldierAbility soldierAbility = SoldierManager.Instance.GetCurSoldierStatus();
 
         SoldierSprite.sprite = Resources.Load<Sprite>(soldierAbility.spritePath);
 
@@ -42,7 +42,7 @@ public class SoldierUI : MonoBehaviour
     }
     private void Start()
     {
-        ChangeSoldier();
+        InitializeSoldierStatus();
     }
 
 }
