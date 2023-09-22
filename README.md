@@ -4,14 +4,14 @@
 
 ### <구현한 기능>
 #### 1. 메인 화면 구성
-    -  플레이어 이름
-    -  플레이어 이미지
-    -  레벨
-    -  exp
-    -  골드
-    -  플레이어 선택 버튼 
-    -  Status 버튼  - 2. Status 보기
-    -  Inventory 버튼  - 3. Inventory 보기
+    - 플레이어 이름
+    - 플레이어 이미지
+    - 레벨
+    - exp
+    - 골드
+    - 플레이어 선택 버튼 
+    - Status 버튼  - 2. Status 보기
+    - Inventory 버튼  - 3. Inventory 보기
 #### 2. Status 보기
     - Status 버튼 클릭시 우측에 캐릭터 정보 표현
     - 뒤로가기 버튼을 누르면 UI 꺼짐
