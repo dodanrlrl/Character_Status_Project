@@ -1,6 +1,6 @@
 # Character_Status_Project
 
-## 기본적인 Unity RPG 게임 틀 만들기
+## 스파르타 던전 - Unity  버전! - A04 조성훈
 
 ### <구현한 기능>
 #### 1. 메인 화면 구성
