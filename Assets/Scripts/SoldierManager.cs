@@ -139,4 +139,5 @@ public class SoldierManager : MonoBehaviour
         return cur_soldierAbility;
     }
 
+
 }

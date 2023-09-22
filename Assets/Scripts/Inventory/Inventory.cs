@@ -5,11 +5,21 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<Item> items;
+    public static Inventory Instance;
 
     [SerializeField]
     private Transform slotParent;
     [SerializeField]
     private Slot[] slots;
+
+    [Header("Selected Item")]
+    [SerializeField]
+    private Item selectedItem;
+    [SerializeField]
+    private int selectedItemIndex;
+
+    private int curEquipIndex;
+
 
 #if UNITY_EDITOR
     private void OnValidate()
@@ -20,6 +30,7 @@ public class Inventory : MonoBehaviour
 
     void Awake()
     {
+        Instance = this;
         FreshSlot();
     }
 
@@ -47,5 +58,25 @@ public class Inventory : MonoBehaviour
         {
             print("½½·ÔÀÌ °¡µæ Â÷ ÀÖ½À´Ï´Ù.");
         }
+    }
+    public void SelectItem(int index)
+    {
+        if (slots[index].item == null)
+            return;
+
+        selectedItem = slots[index].item;
+        selectedItemIndex = index;
+
+        
+    }
+
+    public void OnUseButton()
+    {
+
+    }
+
+    public void Exit()
+    {
+        UIManager.Instance.RemoveOneUI();
     }
 }

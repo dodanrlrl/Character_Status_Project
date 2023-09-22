@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public enum UIPrefab
 {
     StatusUI,
-    SelectSoldierUI
+    SelectSoldierUI,
+    InventoryUI,
 }
 public class UIManager : MonoBehaviour
 {
@@ -45,7 +46,7 @@ public class UIManager : MonoBehaviour
     {
         m_uiPrefabPath.Add("UI/StatusUI");
         m_uiPrefabPath.Add("UI/SelectSoldierUI");
-        //인벤토리 추가 예정
+        m_uiPrefabPath.Add("UI/InventoryUI");
     }
     
     public void AddUI(UIPrefab uiPrefab)//제일위에 ui추가

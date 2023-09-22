@@ -7,6 +7,7 @@ public class Slot : MonoBehaviour
 {
     [SerializeField] 
     Image image;
+    public int index;
 
     private Item _item;
     public Item item
@@ -28,6 +29,11 @@ public class Slot : MonoBehaviour
               image.color = new Color(1, 1, 1, 0);
            }
         }
+    }
+
+    public void OnButtonClick()
+    {
+        Inventory.Instance.SelectItem(index);
     }
 
 }

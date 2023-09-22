@@ -10,8 +10,14 @@ public class MainSceneSystem : MonoBehaviour
 
     private static MainSceneSystem m_instance = null;
 
+
     [SerializeField]
     private Image SoldierSprite;
+
+    [SerializeField]
+    private TMP_Text GoldTxt;
+    [SerializeField]
+    private int nowGold = 20000;
 
     [SerializeField]
     private TMP_Text SoldierType;
@@ -47,9 +53,16 @@ public class MainSceneSystem : MonoBehaviour
     {
         UIManager.Instance.AddUI(UIPrefab.StatusUI);
     }
+    public void OnOpenInventroyUI()
+    {
+        UIManager.Instance.AddUI(UIPrefab.InventoryUI);
+    }
+
+
     private void Start()
     {
         InitializeSoldierInfo();
+        UpdateGold();
     }
 
     public void InitializeSoldierInfo()
@@ -68,6 +81,15 @@ public class MainSceneSystem : MonoBehaviour
 
         ExpBar.fillAmount = soldierAbility.exp / maxExp;
 
+    }
+    public void UpdateGold()
+    {
+        GoldTxt.text = nowGold.ToString();
+    }
+
+    public int GetGold()
+    {
+        return nowGold;
     }
 
 }
