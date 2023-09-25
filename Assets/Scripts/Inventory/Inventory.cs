@@ -13,9 +13,7 @@ public class Inventory : MonoBehaviour
     private Slot[] slots;
 
     [Header("Selected Item")]
-    [SerializeField]
     private Item selectedItem;
-    [SerializeField]
     private int selectedItemIndex;
 
     private int curEquipIndex;
